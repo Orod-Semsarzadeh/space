@@ -1,0 +1,68 @@
+# Set default behaviour, in case users don't have core.autocrlf set.
+* text=auto
+* text eol=lf
+
+# Image File Types
+*.png binary
+*.png_ binary
+*.jpg binary
+*.JPG binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.svg binary
+*.bmp binary
+*.tif binary
+*.ai binary
+
+# Font File Types
+*.ttf binary
+*.eot binary
+*.woff binary
+*.otf binary
+
+# Documents
+*.pdf binary
+*.doc binary
+*.docx binary
+*.xls binary
+*.xlsx binary
+*.ppt binary
+*.pptx binary
+
+# Compressed Files
+*.tar binary
+*.gz binary
+*.tgz binary
+*.zip binary
+*.7z binary
+
+# Miscellaneous Binary Files
+*.wav binary
+*.mp3 binary
+*.mpg binary
+*.mpeg binary
+*.avi binary
+*.divx binary
+*.flv binary
+
+# Source Code Files
+*.php text eol=lf diff=php
+*.inc text eol=lf diff=php
+*.install text eol=lf diff=php
+*.module text eol=lf diff=php
+*.test text eol=lf diff=php
+*.engine text eol=lf diff=php
+*.java text eol=lf diff=java
+*.info text eol=lf
+*.yml text eol=lf
+*.json text eol=lf
+*.xml text eol=lf
+*.twig text eol=lf
+*.css text eol=lf
+*.html text eol=lf
+*.xhtml text eol=lf
+*.js text eol=lf
+*.sql text eol=lf
+*.md text eol=lf
+*.tpl text eol=lf
